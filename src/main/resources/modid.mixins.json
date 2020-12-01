@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.textilemc.examplemod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AddRecipesMixin",
+    "AddShapedRecipeInvoker",
+    "ClientWorldManagerTextureMangerForPublicUseMixin"
+  ],
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
